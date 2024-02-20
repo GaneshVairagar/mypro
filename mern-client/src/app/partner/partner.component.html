@@ -1,0 +1,102 @@
+<br/><br/><br/><br/>
+
+<video autoplay muted loop id="video-background">
+  <source src="assets/video/logbg3.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
+
+<div class="container" >
+    <div class="card">
+        <h1>Event Registation</h1><pre>{{partform.value}}</pre>
+  <form #partform="ngForm" (ngSubmit)="save(partform)">
+    
+    <div >
+      <label>Company Employee First Name</label>
+      <input type="text" ngModel name="company_emp_first_name" class="form-control" id="name" placeholder="Employee First Name">
+    </div>
+  
+    <div >
+        <label> Company Employee Last Name</label>
+        <input type="text" ngModel name="company_emp_last_name"  class="form-control" id="name" placeholder="Employee Last Name">
+      </div>
+
+      <div >
+        <label> Company Name</label>
+        <input type="text" ngModel name="company_name"  class="form-control" id="name" placeholder="Enter Company Name">
+      </div>
+      <div >
+        <label> Email Id</label>
+        <input type="email" ngModel name="email_id"  class="form-control" id="name" placeholder="Enter Email Id">
+      </div>
+      <div >
+        <label> Phone Number</label>
+        <input type="text" ngModel name="phone_number"  class="form-control" id="name" placeholder="Enter Phone Number">
+      </div>
+      <div >
+        <label> Address</label>
+        <input type="text" ngModel name="address"  class="form-control" id="name" placeholder="Enter Address">
+      </div>
+      <div >
+        <label> City</label>
+        <input type="text" ngModel name="city"  class="form-control" id="name" placeholder="Enter City">
+      </div>
+      <div >
+        <label> State</label>
+        <input type="text" ngModel name="state"  class="form-control" id="name" placeholder="Enter State">
+      </div>
+      <div >
+        <label> Country</label>
+        <input type="text" ngModel name="country"  class="form-control" id="name" placeholder="Enter Country">
+      </div>
+      <div >
+        <label> Event Type</label>
+        <input type="text" ngModel name="event_type"  class="form-control" id="name" placeholder="Enter Event Type">
+      </div>
+      <div >
+        <label> Event Name</label>
+        <input type="text" ngModel name="event_name"  class="form-control" id="name" placeholder="Enter Event Name">
+      </div>
+      <div >
+        <label> Bank Account No</label>
+        <input type="text" ngModel name="bank_acc_no"  class="form-control" id="name" placeholder="Enter Bank Account Number">
+      </div>
+      <div >
+        <label> Venue</label>
+        <input type="text" ngModel name="venue"  class="form-control" id="name" placeholder="Enter Venue">
+      </div>
+
+      <div >
+        <label>Image</label>
+        <input type="text" ngModel name="img"  class="form-control" id="name" placeholder="Image">
+      </div>
+      <div >
+        <label>Description</label>
+        <input type="text" ngModel name="descrip"  class="form-control" id="name" placeholder="Description">
+      </div>
+      <div >
+        <label> Price</label>
+        <input type="text" ngModel name="price"  class="form-control" id="name" placeholder="Price">
+      </div>
+      <div >
+        <label> Date</label>
+        <input type="date" ngModel name="date"  class="form-control" id="name" placeholder="Date">
+      </div>
+      <div >
+        <label> Time</label>
+        <input type="text" ngModel name="time"  class="form-control" id="name" placeholder="Time">
+      </div>
+  
+      <div class="mt-4 d-flex">
+        <div class="form-check me-5">
+            <input class="form-check-input" type="checkbox" name="" id="flexRadioDefault3">
+            <label class="form-check-label" for="flexRadioDefault2">
+              <br/><br/><p>I accept all terms and condition</p>
+            </label>
+        </div>
+    </div>
+    
+    <button type="submit" class="btn btn-primary mt-4"  >Submit</button>
+  </form>
+  </div>
+  <div>
+    

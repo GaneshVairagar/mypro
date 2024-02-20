@@ -1,0 +1,10 @@
+body {
+
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Text color on top of the background image */
+}
+
+.container {
+  margin-top: 100px;
+}

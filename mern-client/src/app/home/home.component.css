@@ -1,0 +1,400 @@
+/* styles.css or your.component.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+.video-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex; /* Use flexbox for equal height columns */
+  }
+
+  .photo {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Increased height */
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 10px; /* Add curved corners */
+  }
+
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px; /* Add curved corners to the image */
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    /* Remove background color */
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .read-more {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+  .containers {
+    text-align: center;
+  }
+  
+  .images-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .images {
+    margin: 10px; /* Adjust margin as needed */
+  }
+  
+  .images img {
+    width: 100%;
+    height: auto;
+    max-width: 200px; /* Set the maximum width of the images */
+    display: block;
+    margin: 0 auto;
+  }
+
+
+
+
+  
+
+  .about {
+    background-color: black;
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-6 {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+img {
+    height: 400px;
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+h4 {
+    color: #B6816B;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: red;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    color: whitesmoke;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #777;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh; /* Optional: Adjust the height based on your design */
+  }
+  
+  .center-content {
+    text-align: center;
+    color: #B6816B;
+  }
+  
+
+
+
+
+
+  .container-center {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Helvetica;
+    font-size: 22.5px;
+    background-color: #0E0D0D ;
+}
+
+/* .row {
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-3 {
+    margin: 0 10px;
+} */
+
+.number-item {
+    flex: 1;
+    text-align: center;
+}
+
+.number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #B6816B;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 20px;
+    color: white;
+    font-family:  Helvetica;
+}
+
+
+
+
+
+
+
+.section-whyus {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin-left: 50px;
+  }
+
+  .text-container {
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: white;
+      text-align: justify;
+  } 
+
+  /* .video-container {
+    flex: 1;
+    margin-left: 20px;
+  } */
+
+   iframe {
+    width: 100%;
+    height: 300px;
+  } 
+
+  button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #555;
+  }
+
+
+
+
+  .centered-line {
+    width: 80%;
+    margin: 0 auto; /* Center the line */
+    border-color: white;
+}
+
+
+
+
+.secc {
+            
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0E0D0D
+}
+
+.photos-containerr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+ img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+} 
+
+
+
+
+
+
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  padding: 100px;
+  margin-top: -80px;
+}
+
+.company-details,
+.navbar-text,
+.location-section {
+  flex: 1;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+.company-details img {
+  width: 150%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.small-text {
+  font-size: 17px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.contact-info,
+.navbar-text p {
+  text-align: justify;
+  font-size: 17px;
+  margin: 0;
+  padding-bottom: 10px; /* Add padding between each link */
+}
+
+.location-section h2 {
+  margin-bottom: 10px;
+  margin-left: 30%;
+}
+
+.location-section img {
+  width: 150%;
+  max-width: 600px;
+  margin-top: 10px;
+  margin-left: -30%;
+}
+
+/* Copyright styling */
+footer {
+ 
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  clear: both;
+}

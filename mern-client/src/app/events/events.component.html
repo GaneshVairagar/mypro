@@ -1,0 +1,241 @@
+
+    
+    
+
+<html style="background-color:black;">
+    <!-- app.component.html -->
+    <br/> <br/> <br/>
+    
+    
+    
+    
+         
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+          
+            <div class="video-container">
+                <a href="app-payment">  <video controls autoplay >
+                <source src="assets/video/nik.mp4" type="video/mp4">
+              </video></a>
+            </div>
+          
+        </div>
+      </div>
+    
+    
+        <!-- First row of events -->
+        <div class="event-row">
+            <!-- Event 1 -->
+           
+            <div class="event-card">
+                <div class="event-date">12 Dec 2023</div>
+                <a href="app-payment"> <img src="assets/images/events-img/img1.jpg" alt="Event 1"></a>
+                <div class="event-details">
+                    <div class="event-name">Rockstar Nikhil</div>
+                    <div class="event-location">Pune</div>
+                    <div class="event-type">singing concert</div>
+                    <div class="event-price">₹1899</div>
+                </div>
+            </div>
+        
+    
+            <!-- Event 2 -->
+            <div class="event-card">
+                <div class="event-date">15 Jan 2024</div>
+                <a href="app-payment1"> <img src="assets/images/events-img/img2.jpg" alt="Event 2"></a>
+                <div class="event-details">
+                    <div class="event-name">Visual Poetry</div>
+                    <div class="event-location">Pune</div>
+                    <div class="event-type">Poetry</div>
+                    <div class="event-price">₹1500</div>
+                </div>
+            </div>
+    
+            <!-- Event 3 -->
+            <div class="event-card">
+                <div class="event-date">18 Mar 2024</div>
+                <a href="app-payment2"> <img src="assets/images/events-img/img3.jpg" alt="Event 3"></a>
+                <div class="event-details">
+                    <div class="event-name">Dominic Barrreat</div>
+                    <div class="event-location">Mumbai</div>
+                    <div class="event-type">Stand-up Comedy</div>
+                    <div class="event-price">₹1399</div>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    
+         <!-- First row of events -->
+         <div class="event-row">
+            <!-- Event 4 -->
+           
+            <div class="event-card">
+                <div class="event-date">12 Dec 2023</div>
+                <a href="app-payment3"> <img src="assets/images/events-img/img4.jpg" alt="Event 1"></a>
+                <div class="event-details">
+                    <div class="event-name">Mann Pasand</div>
+                    <div class="event-location">Pune</div>
+                    <div class="event-type">Stand-up Comedy</div>
+                    <div class="event-price">₹1699</div>
+                </div>
+            </div>
+        
+    
+            <!-- Event 5 -->
+            <div class="event-card">
+                <div class="event-date">15 Jan 2024</div>
+                <a href="app-payment4"> <img src="assets/images/events-img/img5.jpg" alt="Event 2"></a>
+                <div class="event-details">
+                    <div class="event-name">Darryl Grant</div>
+                    <div class="event-location">Mumbai</div>
+                    <div class="event-type">Poetry</div>
+                    <div class="event-price">₹1500</div>
+                </div>
+            </div>
+    
+            <!-- Event 6 -->
+            <div class="event-card">
+                <div class="event-date">18 Mar 2024</div>
+                <a href="app-payment5"> <img src="assets/images/events-img/img6.jpg" alt="Event 3"></a>
+                <div class="event-details">
+                    <div class="event-name">Art & Soul</div>
+                    <div class="event-location">Pune</div>
+                    <div class="event-type">Exhibation</div>
+                    <div class="event-price">₹399</div>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+         <!-- First row of events -->
+         <div class="event-row">
+            <!-- Event 7 -->
+           
+            <div class="event-card">
+                <div class="event-date">12 Dec 2023</div>
+                <a href="app-payment6"> <img src="assets/images/events-img/img7.jpg" alt="Event 1"></a>
+                <div class="event-details">
+                    <div class="event-name">Scientific Exhibation</div>
+                    <div class="event-location">Pune</div>
+                    <div class="event-type">Exhibation</div>
+                    <div class="event-price">₹899</div>
+                </div>
+            </div>
+        
+    
+            <!-- Event 8 -->
+            <div class="event-card">
+                <div class="event-date">15 Jan 2024</div>
+                <a href="app-payment7"> <img src="assets/images/events-img/img8.jpg" alt="Event 2"></a>
+                <div class="event-details">
+                    <div class="event-name">Kabaddi Championship</div>
+                    <div class="event-location">Mumbai</div>
+                    <div class="event-type">Sports</div>
+                    <div class="event-price">₹2500</div>
+                </div>
+            </div>
+    
+            <!-- Event 3 -->
+            <div class="event-card">
+                <div class="event-date">18 Mar 2024</div>
+                <a href="app-payment8"> <img src="assets/images/events-img/img9.jpg" alt="Event 3"></a>
+                <div class="event-details">
+                    <div class="event-name">Cricket Tournaments</div>
+                    <div class="event-location">Pune</div>
+                    <div class="event-type">Sports</div>
+                    <div class="event-price">₹1999</div>
+                </div>
+            </div>
+        </div>
+    
+        <fieldset>
+          
+            
+            <mark>{{err}}</mark>
+            <div *ngFor="let p of eventList">
+            
+    
+        <!-- First row of events -->
+        <div class="event-row">
+            <!-- Event 1 -->
+            <div class="event-card">
+                <div class="event-date">{{p.date}}</div>
+                <a href="app-payment9"> <img src="assets/images/events-img/img10.jpg" alt="Event 1"></a>
+                <div class="event-details">
+                    <div class="event-name">{{p.event_name}}</div>
+                    <div class="event-location">{{p.address}}</div>
+                    <div class="event-type">{{p.event_type}}</div>
+                    <div class="event-price">₹{{p.price}}</div>
+                </div>
+            </div>
+    
+            </div>
+    
+           
+    
+        <div>{{p.address}}</div>
+        </div>
+        
+        
+        
+    
+    
+    
+        <header class="header-container">  
+            <div class="company-details"> 
+                <div class="logo-section">
+                    <br/><br/><br/>
+                    <img src="assets/images/logo3.png" alt="Company Logo">
+                </div>
+                <div class="company-info">
+                    <p class="small-text">Prestige Planner: Elevate any event effortlessly. From corporate functions to sports galas, we add a touch of magic to every moment. Your occasion, perfected with prestige.</p>
+                    <div class="contact-info">
+                        <p><strong>Contact Info</strong></p>
+                        <p>Address: "Safalya", Jawahar Nagar, opp Shriyesh ho-society, near Nishant Bank, Akola 444001.</p>
+                        <p>Email: anshul.v.kherde&#64;gmail.com</p>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="navbar-text">
+                <br/><br/>
+                <h2>Company</h2>
+                <br/><br/><br/>
+                
+                <p><a href="app-home" style="color: white;">Home</a></p>
+                <br/>
+                <p><a href="app-about" style="color: white;">About Us</a></p>
+                <br/>
+                <p><a href="app-events" style="color: white;">Events</a></p>
+                <br/>
+                <p><a href="app-portfolios" style="color: white;">Portfolios</a></p>
+                <br/>
+                <p><a href="app-contactus" style="color: white;">Contact Us</a></p>
+          
+            </div>
+             
+            
+            <div class="location-section">
+                <br/>
+                <h2>Location</h2>
+                <br/><br/>
+             <a href="https://maps.app.goo.gl/hmgiHoXSy4oz2Ha98"><img src="assets/images/home-img/map.png" alt="Location Photo"></a>
+            </div>
+          </header>
+          
+    
+         <!-- Copyright information -->
+        <footer class="your-new-footer-class">
+            &copy; 2023 Prestige Planner. All rights reserved.
+        </footer>
+        
+    
+      
+           
+    
+    
+    
+    

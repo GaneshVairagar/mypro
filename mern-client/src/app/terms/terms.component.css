@@ -1,0 +1,45 @@
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 50%; 
+    min-height: 50%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.container-fluid {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height : 1950px;
+    width: 1200px;
+    border-radius: 30px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-fluid .primary-heading {
+    text-align: center;
+    font-family: josefin sans;
+    color: white;
+    padding-top: 50px ;
+    font-size: 3em;
+}
+
+.paragraph {
+    font-family: josefin sans;
+    color: rgb(179, 179, 179);
+    margin-left: 50px;
+    margin-right: 25px;
+    padding-top: 50px;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+    color: white;
+}

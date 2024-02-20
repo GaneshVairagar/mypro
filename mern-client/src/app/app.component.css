@@ -1,0 +1,61 @@
+/* navbar.component.css */
+
+body {
+  background-color: black; /* Set the background color of the body to black */
+  margin: 0; /* Remove default margin */
+}
+
+.transparent-navbar {
+  background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+  position: absolute;
+  width: 100%;
+  z-index: 1000; /* Ensure the navbar is above other elements */
+}
+
+.left-elements a.nav-link {
+  padding-right: 100px; /* Adjust as needed */
+  color: white;
+}
+
+.right-elements a.nav-link {
+  padding-left: 100px; /* Adjust as needed */
+  color: white;
+}
+
+.left-elements,
+.right-elements {
+  margin-bottom: 5px; /* Adjust as needed */
+}
+
+.transparent-navbar a.nav-link:hover {
+  color: #B6816B;
+}
+
+.transparent-navbar .navbar-brand.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  color: #333;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #007bff;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+footer {
+  position: absolute;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  clear: both;
+}

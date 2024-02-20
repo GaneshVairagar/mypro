@@ -1,0 +1,83 @@
+<br/><br/><br/><br/><br/>
+
+<video autoplay muted loop id="video-background">
+  <source src="assets/video/logbg3.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
+
+<div class="container" >
+  <div class="card">
+      <h1>Customer Registation</h1>
+<form #custform="ngForm" (ngSubmit)="save(custform)">
+  <div >
+    <label> First Name</label>
+    <input type="text" ngModel name="first_name" class="form-control" id="name" placeholder="Enter First Name">
+  </div>
+
+  <div >
+      <label> Last Name</label>
+      <input type="text" ngModel name="last_name"  class="form-control" id="name" placeholder="Enter Last Name">
+    </div>
+
+    <div >
+      <label> Email-id</label>
+      <input type="email" ngModel name="email_id"  class="form-control" id="name" placeholder="Enter Email-id">
+    </div>
+
+    <div >
+      <label> Mobile No.</label>
+      <input type="text" ngModel name="phone_number"  class="form-control" id="name" placeholder="Enter Mobile No.">
+    </div> 
+
+    <div >
+      <label> Password</label>
+      <input type="password" ngModel name="password"  class="form-control" id="name" placeholder="password">
+    </div>
+
+
+    <div >
+      <label> Address-1</label>
+      <input type="text" ngModel name="address_line1"  class="form-control" id="name" placeholder="Residensial Address">
+    </div>
+
+    <div >
+      <label> Address-2</label>
+      <input type="text" ngModel name="address_line2"  class="form-control" id="name" placeholder="Parmanant Address">
+    </div>
+
+
+    <div >
+      <label>city</label>
+      <input type="text" ngModel name="city"  class="form-control" id="address" placeholder="Enter city">
+    </div> 
+    
+    <div >
+      <label>State</label>
+      <input type="text" ngModel name="state"  class="form-control" id="address" placeholder="Enter city">
+    </div>
+
+    
+    
+    <div >
+      <label>Country</label>
+      <input type="text" ngModel name="country"  class="form-control" id="address" placeholder="Enter city">
+    </div>
+
+    <div >
+      <label>PinCode</label>
+      <input type="number" ngModel name="pin_code" class="form-control" id="address" placeholder="Enter city">
+    </div>
+
+    <div class="mt-4 d-flex">
+      <div class="form-check me-5">
+          <input class="form-check-input" type="checkbox" name="" id="flexRadioDefault3">
+          <label class="form-check-label" for="flexRadioDefault2">
+              <p>I accept all terms and condition</p>
+          </label>
+      </div>
+  </div>
+  
+  <button type="submit" class="btn btn-primary mt-4"  >Submit</button>
+</form>
+</div>
+
